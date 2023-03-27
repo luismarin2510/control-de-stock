@@ -13,6 +13,7 @@ public class PruebaCnexion {
 					"jdbc:mysql://localhost/control_de_stock?useTimeZone=true&serverTimeZone=UTC", 
 					"root", 
 					"Lm102052*");
+			System.out.println("Cerrando la conexion");
 		
 		con.close();
 	}
